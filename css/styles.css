@@ -1,18 +1,50 @@
-img {
+.header {
+  background-color: orange;
+}
+
+img.profile-image {
   object-fit: cover;
   width: 150px;
   height: 150px;
   border-style: solid;
-  border-color: black;
+  border-color: blue;
 }
 
 img.animated-gif {
   width: 100px;
   height: auto;
   position: absolute;
+  margin-left: 25px;
 }
 
 .col-md-3 {
   float: left;
   position: relative;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+}
+
+h3 {
+  text-align: center;
+  color: blue;
+}
+
+.container-top-8 {
+  height: auto;
+  width: 825px;
+}
+
+h1 {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.friend-total {
+  color: red;
+}
+
+h4 {
+  float: right;
+  color: red;
 }
